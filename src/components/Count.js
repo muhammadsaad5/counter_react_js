@@ -24,11 +24,11 @@ this.setState({count: 0})
 }
 render(){
   return(
-    <div>
+    <div >
  <h1>count: {this.state.count} </h1>     
-<button onClick={this.plus}>plus</button>
-<button onClick={this.minus}>minus</button>
-<button onClick={this.reset}>reset</button>
+<button className="btn btn-primary " onClick={this.plus}>plus</button>
+<button className="btn btn-info " onClick={this.minus}>minus</button>
+<button className="btn btn-danger " onClick={this.reset}>reset</button>
 
     </div>
   );
